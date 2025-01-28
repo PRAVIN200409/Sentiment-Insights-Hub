@@ -7,7 +7,7 @@ import nltk
 import random
 
 nltk.download('vader_lexicon')
-api_google_key= "AIzaSyDsMsbRedEJrGphWr3J6sNhV_4elEHsq1c"
+api_google_key= ""
 # Initialize the NLTK Sentiment Intensity Analyzer
 sia = SentimentIntensityAnalyzer()
 
@@ -144,7 +144,7 @@ def main():
     st.image(RED_LOGO_URL, width=100)
     st.title("YouTube Comment Sentiment Analysis App")
 
-    api_key = "AIzaSyDY_v1QHMx3Me_lF-5I4ZtuV4vcRVPMfk0"
+    api_key = ""
 
     video_source = st.radio("Select Source", ["Trending Videos", "Video URL"], horizontal=True)
 
