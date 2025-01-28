@@ -5,7 +5,7 @@ from transformers import pipeline
 from bs4 import BeautifulSoup
 
 # Define API Keys (Replace with your actual keys)
-GOOGLE_API_KEY = "AIzaSyDsMsbRedEJrGphWr3J6sNhV_4elEHsq1c"
+GOOGLE_API_KEY = ""
 
 # Load Hugging Face sentiment analysis model
 sentiment_analyzer = pipeline("sentiment-analysis")
