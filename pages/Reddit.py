@@ -16,9 +16,9 @@ nltk.download("punkt")
 sns.set(style="darkgrid", context="talk", palette="Dark2")
 
 # Reddit API credentials
-REDDIT_CLIENT_ID = "6uiEVMTD9IexgyD_Fd8fvw"
-REDDIT_CLIENT_SECRET = "_Kpy5-BXm1CV5sQUbLJ1QLBjiGL8BQ"
-REDDIT_USER_AGENT = "ashiqurrahman2205"
+REDDIT_CLIENT_ID = ""
+REDDIT_CLIENT_SECRET = ""
+REDDIT_USER_AGENT = ""
 
 # Function to fetch subreddit posts
 def fetch_subreddit_posts(subreddit_name, limit=100):
